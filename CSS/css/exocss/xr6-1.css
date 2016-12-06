@@ -1,0 +1,92 @@
+
+  body {
+    width: 100%;
+    margin: 0px;
+  }
+
+  nav, header, main, aside, footer {
+    padding: 10px;
+
+  }
+
+  header {
+    color: white;
+    background-color: red;
+
+  }
+
+  nav {
+    background-color: blue;
+
+  }
+
+  main {
+    background-color: purple;
+  }
+
+  footer{
+    background-color: green;
+  }
+  .summary {
+    background-color: yellow;
+  }
+
+  nav li {
+    text-align: center;
+    width: 20%;
+    list-style-type: none;
+
+  }
+  .summary li {
+    list-style-type: none;
+  }
+
+  .ads {
+    background-color: magenta;
+  }
+/*les 2 conteneurs flex*/
+nav, .wrapper {
+  display: flex;
+}
+
+nav ul {
+
+}
+/* mobile first*/
+  @media screen (max-width: 600px){
+
+    nav, .summary {
+      display: none;
+  }
+.wrapper {
+  flex-direction: column;
+  }
+
+.ads {
+  order: -1;
+  }
+}
+/*tablette style*/
+@media screen (min-width: 600px) and (max-width: 900px){
+
+.summary {
+    display: none;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+.ads {
+    order: -1;
+  }
+}
+
+/*ecrans ordi*/
+@media screen (min-width: 900px) {
+
+  .summary {
+    order: -1;
+  }
+  .ads {
+    order: 1;
+  }
+}

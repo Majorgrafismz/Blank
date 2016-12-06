@@ -1,0 +1,57 @@
+#head1 {
+  background-color: cornflowerblue;
+}
+aside {
+  background-color: gold;
+  height: 300px;
+}
+main {
+  background-color: darkorange;
+  height: 300px;
+}
+footer {
+  background-color: red;
+}
+/* prevent fusion de marge*/
+ header, aside, main, footer {
+   padding : 1px;
+ }
+ #navtop{
+
+   font-size: 2em;
+   background-color: lightgreen;
+   margin-bottom: 0px;
+   border: 0px;
+
+ }
+ #navtop ul{
+   border: 0px;
+ }
+
+ #navtop li a{
+   color: darkorchid;
+   border: 0px;
+ }
+
+ #navtop li a:hover {
+   color: white;
+ }
+
+ #head1 {
+   padding-top: 50px;
+   height: 100vh;
+ }
+
+#head2 {
+  background-color: darkorchid;
+}
+
+ .jumbotron {
+   margin: 0px;
+   padding: 0px;
+   background-color: pink;
+   height: 100vh;
+ }
+ #textmain {
+   text-align: center;
+ }

@@ -1,0 +1,16 @@
+html, body{
+  margin: 0;
+
+}
+
+#topimg {
+  display: block;
+  position: absolute;
+  background-image: url("../images/eyez.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0:
+
+}

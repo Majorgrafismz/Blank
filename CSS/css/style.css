@@ -1,0 +1,39 @@
+ul li {
+  background-color: #777777;
+}
+nav ul ul a {
+  text-decoration: none;
+}
+aside h1 {
+  font-size: 0.3em
+}
+span {
+  font-weight: bold;
+}
+span[title] {
+  font-style: italic;
+}
+p {
+  text-align: justify;
+}
+pre {
+  text-align: center;
+}
+.title {
+  color: red;
+}
+
+.test  {
+  background-color: pink;
+}
+.left:hover {
+  color : yellow;
+}
+.left {
+  font-size: 2em;
+  font-weight: bolder;
+}
+.menu nav {
+  display: inline-block;
+  background-color: blue;
+}

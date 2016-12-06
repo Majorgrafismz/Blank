@@ -1,0 +1,39 @@
+a {
+  color: #00FFFF;
+  background-color: #333333;
+  transition: color 0.3s,background-color 0.3s;
+
+}
+nav ul {
+  display: flex;
+  font-size: 50px;
+  width: 50%;
+  text-decoration: none;
+
+}
+nav ul li {
+  display : block;
+  justify-content: center;
+  list-style-type: : none;
+}
+
+a:hover {
+  color: #FF0000;
+  background-color: #000000;
+}
+/* disparition des sections au depart*/
+section {
+  display: none;
+}
+/* cibler les sections */
+section:target {
+  display: block;
+}
+
+#shut:target {
+  display:none;
+}
+span {
+  display :block;
+  text-align: right;
+}

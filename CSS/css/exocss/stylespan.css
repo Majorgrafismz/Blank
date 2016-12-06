@@ -1,0 +1,44 @@
+html, body{
+  margin: 0px;
+  padding: 0px
+}
+body{
+  background-color: #000000;
+}
+
+#elemenu{
+  display: flex;
+  width: 100%;
+  background-color: lime;
+  justify-content: space-around;
+  padding: 0px;
+
+}
+
+#elemenu li{
+list-style: none;
+
+
+}
+
+#elemenu li a{
+  display: block;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+#elemenu li a:hover{
+  color: darkorchid;
+  font-size: 35px;
+}
+
+
+#mots5 {
+  color: yellow;
+  background-color: green;
+}
+#images3 {
+  background-color: cornflowerblue;
+}

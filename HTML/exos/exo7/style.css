@@ -1,0 +1,21 @@
+body {
+  background-color :  black;
+  font-family: Arial,sans-serif;
+}
+nav {
+  color: white;
+  font-size: 3em;
+  font-family: Tahoma,sans-serif;
+}
+p {
+  color: yellow;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: purple;
+}
+ol {
+  color: purple;
+}

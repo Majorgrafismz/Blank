@@ -1,0 +1,57 @@
+html,body{
+  margin: 0px;
+  height: 100%;
+}
+nav {
+
+  background-color: #003300;
+  /*height: 900px;
+  width : 200px;*/
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  left: -20%;
+  transition: left 3s;
+}
+nav li {
+    list-style-type: none;
+}
+nav li a {
+  color: #DDDD00;
+  text-decoration: none;
+}
+
+/*input {
+  display: none;
+}*/
+#weed {
+  display: none;
+}
+
+#weed + label::before {
+  content:"SHOP OPEN";
+}
+
+#weed + label::after {
+  content:"SHOP CLOSE";
+}
+
+label {
+  z-index: 2;
+  position: fixed;
+  padding: 0.5em;
+  left: 0px;
+  transition: left 3s;
+}
+
+
+/*input:checked ~ nav {
+  display: block;
+  left: 1px;
+}*/
+#weed:checked ~ nav{
+  left: 0%;
+}
+#weed:checked + label{
+  left: 20%;
+}

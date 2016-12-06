@@ -1,0 +1,18 @@
+@media (max-width: 600px){
+  p {
+    color: red;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+  p {
+    color: purple;
+    font-weight: bold;
+  }
+}
+@media (min-width: 800px){
+  p {
+      color: green;
+      text-decoration: overline;
+  }
+}
